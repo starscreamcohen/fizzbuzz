@@ -1,20 +1,18 @@
-jQuery(document).ready(function(){
-	$("body").append(i);
-});
+$(document).ready(function(){
 
 for(var i = 1; i < 100; i++) {
 	if(i % 3 == 0 && i % 5 == 0) {
-		console.log("FizzBuzz");
+		$("body").append("<p>FizzBuzz</p>");
 	}
 	else if (i % 5 == 0) {
-		console.log("Buzz");
+		$("body").append("<p>Buzz</p>");
 	}
 	else if (i % 3 == 0){
-		console.log("Fizz");
+		$("body").append("<p>Fizz</p>");
 	}
 	else {
-		console.log(i);
+		$("body").append("<p>" + i + "</p>");
 	}
 }
 
-
+});
