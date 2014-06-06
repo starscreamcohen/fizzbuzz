@@ -1,0 +1,34 @@
+body {
+	position: relative;
+	bottom: 0;
+	font-weight: 400;
+	
+
+}
+h1 {font-size: 2.5em;} h2 {font-size: 2em} h3 {font-size: 1.83em;} h4 {font-size: 1.75em;} h5 {font-size: 1.5em;} h6 {font-size: 1em}
+p, label, #submit, #playagain {font-size: 1.25em;}
+.bold {font-weight: 400;} .bolder {font-weight: 700;} .boldest {font-weight: 900;}
+	#game-wrapper {
+		width: 80%;
+		margin: 0 26%;
+	}
+.blue {color: #0068A3;}
+.red {color: #FF292F;}
+
+	#rules {
+		margin: 25px 0;
+	}
+		h1, h3, p {
+			text-align: center;
+		}
+			#submit, #playagain {
+				color: #fff;
+				background-color: #359AD0;
+				border-radius: 4px;
+			}
+		#attach-game {
+			margin-top: 25px;
+		}
+			#attach-game p {
+				margin-bottom: 15px
+			}

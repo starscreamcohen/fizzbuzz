@@ -3,19 +3,30 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Document</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
 
 	</head>	
 	<body>
-		<label> What's Your Number?
-			<input type="text" id="myInput" autofocus/>
-		</label>
+		<section id="rules">
+			<h1>Rules To Win?</h1>
+			<h3>Enter a "Number" from 1-100</h3>
+			<h3>If it's too high then No Joy</h3>
+			<h3>Want to Play Again?</h3>
+			<h3>Never Been a Game with Better Re-playability</h3>
+		</section>
+		<div id="game-wrapper">
+			<label> What's Your Number?
+			<input type="text" id="myinput" autofocus/>
+			</label>
 			<input type="submit" value="Submit Number" id="submit" />
-			<input type="reset" value="Reset Game" id="playAgain" /> 
-			<div id="attach-game">
+			<input type="reset" value="Reset Game" id="playagain" /> 
+		</div>
+		<div id="attach-game">
 
-			</div>
+		</div>
 
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
